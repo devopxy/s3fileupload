@@ -20,4 +20,4 @@ def upload_to_aws(local_file, bucket, s3_file):
         return False
 
 #File path can be passed through a  config file or commandline parameter
-uploaded = upload_to_aws('ChangeThis:File2BeUploaded', 'sandboxbucket', 'second_file')
+uploaded = upload_to_aws('ChangeThis:File2BeUploaded', 'sandboxbucket', 'ChangeThis:UploadedFileName')
